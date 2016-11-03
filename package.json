@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "resume export resume.pdf --format pdf --theme flat && resume export resume.html --format html --theme flat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsonnentag/resume.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/paulsonnentag/resume/issues"
+  },
+  "homepage": "https://github.com/paulsonnentag/resume#readme",
+  "dependencies": {
+    "resume-cli": "^0.4.19"
+  }
+}

@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Paul Sonnentag</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Paul Sonnentag
+					</h1>
+					<h2>
+						Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">Paul.Sonnentag@googlemail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+4915154869016</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://paulsonnentag.com">http://paulsonnentag.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I&#x27;m a developer studying media informatics in Stuttgart, Germany. But my passion for computers started way earlier. My first attempt at creating video games at 8 years of age was drawing race tracks in Paint that one could &#x27;drive&#x27; on with the pen tool. Since then I&#x27;ve been hooked by the idea that you can use technology to create anything you can imagine. Software development is a fast moving field which I enjoy because there is always something new to learn and try out. In my code I strive for simple and elegant solutions, but it&#x27;s not an end in self. Building applications that are easy to use and solve the user&#x27;s problem is even more important. This part of software development is just as interesting as solving the technical challenges.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://github.com/paulsonnentag">paulsonnentag</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://twitter.com/paulsonnentag">paulsonnentag</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row" style="page-break-before: always">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Bosch GmbH</span>
+					<span class="date">
+						2015-03-01 — 2017-08-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.bosch.com/">https://www.bosch.com/</a>
+				</div>
+				<div class="position">
+					Internship
+				</div>
+				<div class="summary">
+					<p>I work as part of a remote team together with colleagues in Berlin, Stuttgart, and London. Together we develop a prototype of a future Bosch service product. It&#x27;s an interesting challenge balancing between quickly changing requirements as the product evolves and building something extensible which can be later turned into a production ready application.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>K15t Software</span>
+					<span class="date">
+						2015-11-01 — 2017-02-28
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://k15t.com">http://k15t.com</a>
+				</div>
+				<div class="position">
+					Working Student
+				</div>
+				<div class="summary">
+					<p>I built plugins for the Atlassian Connect platform to help user collaborate painlessly. I was part of the frontend development team. We used React and Angular depending on the project.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Attended the Atlassian connect week 2016 in San Diego</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Heilmann Software</span>
+					<span class="date">
+						2012-11-01 — 2014-09-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://heilmannsoftware.de">http://heilmannsoftware.de</a>
+				</div>
+				<div class="position">
+					Working Student
+				</div>
+				<div class="summary">
+					<p>I helped develop a mobile app which gives chimney sweepers access to their data when they&#x27;re in their customer&#x27;s homes doing inspections. As a team we built this as a hybrid app using Ionic and Angular. This allowed us to deliver an app that runs on both Android and iOS with only a small team of developers.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Stadtbibliothek Stuttgart (public library)</span>
+					<span class="date">
+						2016-09-01 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www1.stuttgart.de/stadtbibliothek/">http://www1.stuttgart.de/stadtbibliothek/</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>I organize a monthly coding club together with a friend where we teach kids programming. It&#x27;s great to see the excitement of children when they build their own little games and animations.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Stuttgart Media University</span>
+					<span class="date">
+						2013-09-01 — 2018-31-08
+					</span>
+				</h4>
+				<div class="area">
+					Medieninformatik (media informatics)
+				</div>
+				<div class="studyType">
+					Bachelor of Science
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Mathematik (mathematics)</li>
+					<li>Software-Entwicklung 1 (software development 1)</li>
+					<li>Software-Entwicklung 2 (software development 2)</li>
+					<li>Nachrichtentechnik (telecommunications)</li>
+					<li>Medientechnik Grundlagen (media technology)</li>
+					<li>Theoretische Informatik (theoretical computer science)</li>
+					<li>Angewandte Mathematik (applied mathematics)</li>
+					<li>Datenbanken (databases 1)</li>
+					<li>Rechnernetze (computer networks)</li>
+					<li>Betriebssysteme (operating systems)</li>
+					<li>Structured data and applications 1</li>
+					<li>Algorithmen und Datenstrukturen (algorithms and data structures)</li>
+					<li>IT-Recht (it law)</li>
+					<li>BWL für Informatiker (business studies)</li>
+					<li>Aktuelle Themen Internet Technologien (current topics in internet technologies)</li>
+					<li>IT-Projektmanagement (it project management)</li>
+					<li>Anleitung zum wissenschaftlichen Arbeiten (introduction academic studies)</li>
+					<li>Künstliche Intelligenz (AI)</li>
+					<li>Data Mining</li>
+					<li>IT Security</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University Stuttgart</span>
+					<span class="date">
+						2012-10-01 — 2013-09-01
+					</span>
+				</h4>
+				<div class="area">
+					Softwaretechnik (software engineering)
+				</div>
+				<div class="studyType">
+					Bachelor of Science (not completed)
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Frontend Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>React</li>
+					<li>Angular</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Node.js</li>
+					<li>MongoDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Pet languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>Elm</li>
+					<li>Clojure</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row" style="page-break-before: always">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Impro Theater</h4>
+				</div>
+				<ul class="keywords">
+					<li>Theater</li>
+					<li>Comedy</li>
+					<li>Improvisation</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Hackathons</h4>
+				</div>
+				<ul class="keywords">
+					<li>Creativity</li>
+					<li>Digital Playground</li>
+					<li>Prototyping</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	</div>
+
+	</body>
+</html>

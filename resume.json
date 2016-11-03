@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Paul Sonnentag",
+    "label": "Developer",
+    "picture": " ",
+    "email": "Paul.Sonnentag@googlemail.com",
+    "phone": "+4915154869016",
+    "website": "http://paulsonnentag.com",
+    "summary": "I'm a developer studying media informatics in Stuttgart, Germany. But my passion for computers started way earlier. My first attempt at creating video games at 8 years of age was drawing race tracks in Paint that one could 'drive' on with the pen tool. Since then I've been hooked by the idea that you can use technology to create anything you can imagine. Software development is a fast moving field which I enjoy because there is always something new to learn and try out. In my code I strive for simple and elegant solutions, but it's not an end in self. Building applications that are easy to use and solve the user's problem is even more important. This part of software development is just as interesting as solving the technical challenges.",
+    "location": {
+      "address": "Am Schattwald 33",
+      "postalCode": "70569",
+      "city": "Stuttgart",
+      "countryCode": "DE",
+      "region": "Baden Württemberg"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "paulsonnentag",
+      "url": "http://github.com/paulsonnentag"
+    },{
+      "network": "Twitter",
+      "username": "paulsonnentag",
+      "url": "http://twitter.com/paulsonnentag"
+    }]
+  },
+  "work": [
+    {
+    "company": "Bosch GmbH",
+    "position": "Internship",
+    "website": "https://www.bosch.com/",
+    "startDate": "2015-03-01",
+    "endDate": "2017-08-31",
+    "summary": "I work as part of a remote team together with colleagues in Berlin, Stuttgart, and London. Together we develop a prototype of a future Bosch service product. It's an interesting challenge balancing between quickly changing requirements as the product evolves and building something extensible which can be later turned into a production ready application.",
+    "highlights": [ ]
+  },{
+    "company": "K15t Software",
+    "position": "Working Student",
+    "website": "http://k15t.com",
+    "startDate": "2015-11-01",
+    "endDate": "2017-02-28",
+    "summary": "I built plugins for the Atlassian Connect platform to help user collaborate painlessly. I was part of the frontend development team. We used React and Angular depending on the project.",
+    "highlights": [
+      "Attended the Atlassian connect week 2016 in San Diego"
+    ]
+  },{
+    "company": "Heilmann Software",
+    "position": "Working Student",
+    "website": "http://heilmannsoftware.de",
+    "startDate": "2012-11-01",
+    "endDate": "2014-09-30",
+    "summary": "I helped develop a mobile app which gives chimney sweepers access to their data when they're in their customer's homes doing inspections. As a team we built this as a hybrid app using Ionic and Angular. This allowed us to deliver an app that runs on both Android and iOS with only a small team of developers.",
+    "highlights": []
+  }],
+  "volunteer": [{
+    "organization": "Stadtbibliothek Stuttgart (public library)",
+    "position": "Volunteer",
+    "website": "http://www1.stuttgart.de/stadtbibliothek/",
+    "startDate": "2016-09-01",
+    "summary": "I organize a monthly coding club together with a friend where we teach kids programming. It's great to see the excitement of children when they build their own little games and animations.",
+    "highlights": []
+  }],
+  "education": [{
+    "institution": "Stuttgart Media University",
+    "area": "Medieninformatik (media informatics)",
+    "studyType": "Bachelor of Science",
+    "startDate": "2013-09-01",
+    "endDate": "2018-31-08",
+    "courses": [
+      "Mathematik (mathematics)",
+      "Software-Entwicklung 1 (software development 1)",
+      "Software-Entwicklung 2 (software development 2)",
+      "Nachrichtentechnik (telecommunications)",
+      "Medientechnik Grundlagen (media technology)",
+      "Theoretische Informatik (theoretical computer science)",
+      "Angewandte Mathematik (applied mathematics)",
+      "Datenbanken (databases 1)",
+      "Rechnernetze (computer networks)",
+      "Betriebssysteme (operating systems)",
+      "Structured data and applications 1",
+      "Algorithmen und Datenstrukturen (algorithms and data structures)",
+      "IT-Recht (it law)",
+      "BWL für Informatiker (business studies)",
+      "Aktuelle Themen Internet Technologien (current topics in internet technologies)",
+      "IT-Projektmanagement (it project management)",
+      "Anleitung zum wissenschaftlichen Arbeiten (introduction academic studies)",
+      "Künstliche Intelligenz (AI)",
+      "Data Mining",
+      "IT Security"
+    ]
+  },{
+    "institution": "University Stuttgart",
+    "area": "Softwaretechnik (software engineering)",
+    "studyType": "Bachelor of Science (not completed)",
+    "startDate": "2012-10-01",
+    "endDate": "2013-09-01",
+    "courses": []
+  }],
+  "awards": [],
+  "publications": [],
+  "skills": [{
+    "name": "Frontend Development",
+    "level": "Advanced",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Angular"
+    ]
+  }, {
+    "name": "Backend Development",
+    "level": "Intermediate",
+    "keywords": [
+      "Node.js",
+      "MongoDB"
+    ]
+  }, {
+    "name": "Pet languages",
+    "level": "Beginner",
+    "keywords": [
+      "Elm",
+      "Clojure"
+    ]
+  }],
+
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    }, {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+
+  ],
+  "interests": [{
+    "name": "Impro Theater",
+    "keywords": [
+      "Theater",
+      "Comedy",
+      "Improvisation"
+    ]
+  },{
+    "name": "Hackathons",
+    "keywords": [
+      "Creativity",
+      "Digital Playground",
+      "Prototyping"
+    ]
+  }],
+  "references": []
+}
